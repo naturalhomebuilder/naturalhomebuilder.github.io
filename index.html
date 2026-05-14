@@ -1,1 +1,183 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natural Homebuilder LLC</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav">
+    <a href="#" class="nav__logo">NHB<span class="dot">.</span></a>
+    <ul class="nav__links">
+      <!-- <li><a href="#about">About</a></li> -->
+      <!-- <li><a href="#services">Services</a></li> -->
+      <li><a href="#work">Portfolio</a></li>
+      <!-- <li><a href="#contact">Contact</a></li> -->
+    </ul>
+    <a href="#contact" class="btn btn--sm">Contact</a>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <header class="hero" id="home">
+    <div class="hero__eyebrow">General Contractor · Est. 2008</div>
+    <h1 class="hero__headline">
+      Natural Homebuilder LLC.
+    </h1>
+    <p class="hero__sub">
+      Meticulous, Reliable, <em>Natural</em>. <br/>
+      NYC — NJ — NY
+    </p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">View My Work</a>
+      <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">↓</div>
+  </header>
+
+  <!-- ── ABOUT ── -->
+  <!-- <section class="section about" id="about">
+    <div class="section__label">01 — About</div>
+    <div class="about__grid">
+      <div class="about__image-wrap">
+        <div class="about__image-placeholder">
+          <span>Your Photo</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <h2 class="section__heading">A builder with an<br/><em>eye for detail.</em></h2>
+        <p>Hi, I'm <strong>Your Name</strong> — a contractor specializing in [your trade/service]. With over six years of independent work, I've delivered [outcomes] for clients ranging from small businesses to enterprise teams.</p>
+        <p>I believe the best work comes from clear communication, honest timelines, and a relentless focus on what actually matters to the client.</p>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number">40+</span>
+            <span class="stat__label">Projects delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">6yr</span>
+            <span class="stat__label">Independent</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">100%</span>
+            <span class="stat__label">Client satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ── SERVICES ── -->
+  <!-- <section class="section services" id="services">
+    <div class="section__label">02 — Services</div>
+    <h2 class="section__heading">What I do.</h2>
+    <div class="services__grid">
+      <div class="service-card">
+        <div class="service-card__number">01</div>
+        <h3 class="service-card__title">Service One</h3>
+        <p class="service-card__desc">A short description of the service, the problems it solves, and who it's best for. Keep it honest and specific.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__number">02</div>
+        <h3 class="service-card__title">Service Two</h3>
+        <p class="service-card__desc">A short description of the service, the problems it solves, and who it's best for. Keep it honest and specific.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__number">03</div>
+        <h3 class="service-card__title">Service Three</h3>
+        <p class="service-card__desc">A short description of the service, the problems it solves, and who it's best for. Keep it honest and specific.</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ── WORK ── -->
+  <section class="section work" id="work">
+    <div class="section__label">01 — Selected Work</div>
+    <h2 class="section__heading">Projects.</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT_kb-2NgE3BaQKqjReOokPIjPDSTMLOIOc0HsPrzXBSiu7sf5KIj06FFV9tObvotnIJO3c0IDSTWGr/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <!-- <div class="work__grid">
+
+      <article class="project-card">
+        <div class="project-card__image-wrap">
+          <div class="project-card__image-placeholder">Project Image</div>
+        </div>
+        <div class="project-card__body">
+          <div class="project-card__tags">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+          </div>
+          <h3 class="project-card__title">Project Title One</h3>
+          <p class="project-card__desc">A one or two sentence description of the project, the client's challenge, and what you delivered.</p>
+          <a href="#" class="project-card__link">View case study →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__image-wrap">
+          <div class="project-card__image-placeholder">Project Image</div>
+        </div>
+        <div class="project-card__body">
+          <div class="project-card__tags">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+          </div>
+          <h3 class="project-card__title">Project Title Two</h3>
+          <p class="project-card__desc">A one or two sentence description of the project, the client's challenge, and what you delivered.</p>
+          <a href="#" class="project-card__link">View case study →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__image-wrap">
+          <div class="project-card__image-placeholder">Project Image</div>
+        </div>
+        <div class="project-card__body">
+          <div class="project-card__tags">
+            <span class="tag">Tag 1</span>
+          </div>
+          <h3 class="project-card__title">Project Title Three</h3>
+          <p class="project-card__desc">A one or two sentence description of the project, the client's challenge, and what you delivered.</p>
+          <a href="#" class="project-card__link">View case study →</a>
+        </div>
+      </article>
+
+    </div> -->
+  </section>
+
+
+  <!-- ── CONTACT ── -->
+  <section class="section contact" id="contact">
+    <div class="section__label">02 — Contact</div>
+    <div class="contact__inner">
+      <h2 class="section__heading contact__heading">
+        Let's work<br/><em>together.</em>
+      </h2>
+      <div class="contact__body">
+        <p>Have a project in mind? Reach out:</p>
+        <div class="contact__links">
+          <a href="mailto:hello@yourname.com" class="contact__link">
+            <span class="contact__link-label">Email</span>
+            naturalhomebuilder@gmail.com
+          </a>
+          <!-- <a class="contact__link">
+            <span class="contact__link-label">Call</span>
+            201.000.0000
+          </a> -->
+        </div>
+        <!-- <a href="mailto:naturalhomebuilder@gmail.com" class="btn btn--primary btn--lg">Start a Conversation</a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <span>© 2026 Natural Homebuilder LLC. All rights reserved.</span>
+    <span>General Contractor</span>
+  </footer>
+
+</body>
+</html>
